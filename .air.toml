@@ -1,0 +1,7 @@
+[build]
+  cmd = "GOOS=js GOARCH=wasm go build -o ./web/main.wasm ."
+  bin = ""
+  include_ext = ["go"]
+  exclude_dir = ["tools", "web"]
+[log]
+  time = false

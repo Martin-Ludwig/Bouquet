@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Bouquet</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    canvas {
+      display: block; /* removes the small default gap below the canvas */
+    }
+  </style>
+  <script src="wasm_exec.js"></script>
+</head>
+
+<body>
+  <!-- Size is set by rl.InitWindow on the Go side once the wasm starts. -->
+  <canvas id="canvas" width="800" height="450"></canvas>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>

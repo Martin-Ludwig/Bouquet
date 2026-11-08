@@ -1,0 +1,10 @@
+[
+  {
+    "label": "compile main package to web/main.wasm",
+    "command": "GOOS=js GOARCH=wasm go build -o web/main.wasm ."
+  },
+  {
+    "label": "serve web/ on :8080",
+    "command": "go run ./tools/serve"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "lsp": {
+    "gopls": {
+      "initialization_options": {
+        "env": {
+          "GOOS": "js",
+          "GOARCH": "wasm"
+        },
+        "buildFlags": []
+      }
+    }
+  }
+}

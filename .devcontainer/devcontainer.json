@@ -1,0 +1,14 @@
+{
+  "name": "Bouquet (Go + raylib + WASM)",
+  "build": {
+    "dockerfile": "../Containerfile",
+    "context": ".."
+  },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=bouquet-go-mod,target=/go/pkg/mod,type=volume",
+    "source=bouquet-go-cache,target=/root/.cache/go-build,type=volume"
+  ],
+  "forwardPorts": [8080]
+}
