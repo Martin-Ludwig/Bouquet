@@ -1,0 +1,46 @@
+{
+  "hunter": {
+    "name": "Jagdbot",
+    "letter": "J",
+    "hp": 3,
+    "speed": 1,
+    "behavior": "chase",
+    "params": { "aggro": 8, "wander": 0.3 },
+    "color": "#8c3ca0",
+    "radius": 0.6
+  },
+  "raider": {
+    "name": "Marodeur",
+    "letter": "M",
+    "hp": 2,
+    "speed": 1,
+    "behavior": "raid",
+    "params": { "aggro": 3, "huntAggro": 8, "raidRange": 10, "wander": 0.3 },
+    "color": "#c92a2a",
+    "radius": 0.6,
+    "razes": true,
+    "becomes": "warlord"
+  },
+  "warlord": {
+    "name": "Kriegsmech",
+    "letter": "K",
+    "hp": 5,
+    "speed": 2,
+    "behavior": "raid",
+    "params": { "aggro": 3, "huntAggro": 8, "raidRange": 10, "wander": 0.3 },
+    "color": "#e8590c",
+    "radius": 0.72,
+    "razes": true
+  },
+  "trooper": {
+    "name": "Trooper",
+    "letter": "T",
+    "hp": 1,
+    "speed": 1,
+    "squad": 3,
+    "tactic": "army",
+    "params": { "aggro": 8, "hold": 2, "strike": 2, "wander": 0.3 },
+    "color": "#0c8599",
+    "radius": 0.45
+  }
+}

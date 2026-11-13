@@ -1,0 +1,28 @@
+{
+  "lichtung": {
+    "name": "Lichtung",
+    "width": 9,
+    "rows": 11,
+    "base": "plain",
+    "hills": { "count": [2, 3], "radius": [2, 3.5], "max": 2, "flat": 1 },
+    "features": [
+      { "terrain": "wall", "count": 4, "size": [2, 3], "shape": "chain" },
+      { "terrain": "forest", "count": 3, "size": [3, 5], "shape": "blob" }
+    ],
+    "tower": { "sight": 5, "height": 3, "minDistance": 3 },
+    "storm": {
+      "name": "Ionensturm",
+      "shape": "ring",
+      "delay": 1,
+      "wave": [1],
+      "damage": 2,
+      "color": "#6e82af"
+    },
+    "firstAP": 1,
+    "heightBonus": 1,
+    "trail": 3,
+    "trailBonus": 1,
+    "shieldCost": 1,
+    "shieldDamage": 1
+  }
+}

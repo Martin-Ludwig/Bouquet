@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hex-Kampf (Test Ring-Zoom)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="hud">
+    <div class="stat">Zug <span id="turn"></span></div>
+    <div class="stat">HP <span id="hp"></span></div>
+    <div class="stat">Kolonien <span id="cities"></span></div>
+    <div class="stat">Alarm <meter id="rageBar" min="0"></meter> <span id="rage"></span></div>
+    <button id="endBtn">Zug beenden</button>
+    <button id="restartBtn">Neu</button>
+  </header>
+
+  <canvas id="board"></canvas>
+
+  <footer>
+    <div id="msg"></div>
+    <div id="log"></div>
+  </footer>
+
+  <script src="game.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "kaempfer": { "name": "Kämpfer", "hp": 10, "ap": 3, "melee": 3, "ranged": 3, "range": 2 },
+  "schuetze": { "name": "Schütze", "hp": 11, "ap": 3, "melee": 0, "ranged": 3, "range": 3 },
+  "scharf": { "name": "Scharfschütze", "hp": 8, "ap": 3, "melee": 0, "ranged": 4, "range": 4 },
+  "waechter": { "name": "Wächter", "hp": 12, "ap": 3, "melee": 3, "ranged": 0 },
+  "spaeher": { "name": "Späher", "hp": 10, "ap": 4, "melee": 2, "ranged": 2, "range": 2 },
+  "berserker": { "name": "Berserker", "hp": 12, "ap": 3, "melee": 4, "ranged": 0 }
+}

@@ -1,0 +1,18 @@
+{
+  "plain": { "name": "Ebene", "passable": true, "fill": "#e8daba" },
+  "wall": {
+    "name": "Barriere",
+    "passable": false,
+    "blocksSight": true,
+    "fill": "#9e8666",
+    "hatch": { "lines": 5, "width": 1.5, "color": "#4a3826" }
+  },
+  "forest": {
+    "name": "Dschungel",
+    "passable": true,
+    "blocksSight": true,
+    "hides": 2,
+    "fill": "#e8daba",
+    "hatch": { "lines": 3, "width": 3, "color": "#60683ec8" }
+  }
+}

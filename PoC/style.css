@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #0f1412;
+  color: #e8efe9;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#hud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background: #18201c;
+}
+
+.stat {
+  font-size: 15px;
+}
+
+button {
+  background: #2f5d3e;
+  color: #fff;
+  border: 0;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3a7350;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+#board {
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+  display: block;
+  touch-action: manipulation;
+}
+
+footer {
+  padding: 6px 10px;
+  background: #18201c;
+  font-size: 14px;
+  height: 110px;
+  overflow-y: auto;
+}
+
+#msg {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+#log div {
+  opacity: 0.7;
+}
+
+#rageBar {
+  width: 80px;
+  vertical-align: middle;
+}

@@ -1,0 +1,30 @@
+{
+  "colony": {
+    "name": "Kolonie",
+    "shape": "square",
+    "color": "#e8c15a",
+    "razesTo": "ruin",
+    "onEnter": [
+      { "effect": "heal", "params": { "amount": 2 } },
+      { "effect": "remove" }
+    ],
+    "enterMessage": "Kolonie gesichert: +2 HP."
+  },
+  "ruin": {
+    "name": "Ruine",
+    "shape": "cross",
+    "color": "#b03a2e"
+  },
+  "tower": {
+    "name": "Sensorturm",
+    "shape": "triangle",
+    "color": "#8f8a80",
+    "ownedColor": "#1c7ed6",
+    "sight": 8,
+    "jump": true,
+    "onEnter": [
+      { "effect": "claim" }
+    ],
+    "enterMessage": "Sensorturm besetzt: Sicht über Hindernisse, und von hier springst du über Barrieren."
+  }
+}

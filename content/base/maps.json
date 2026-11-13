@@ -1,0 +1,155 @@
+{
+  "default": {
+    "name": "Grasland",
+    "width": 13,
+    "rows": 12,
+    "base": "plain",
+    "hills": { "count": [2, 4], "radius": [2.5, 5], "max": 3, "flat": 2 },
+    "player": { "hp": 5, "moves": 2, "sight": 6 },
+    "features": [
+      { "terrain": "wall", "count": 4, "size": [3, 5], "shape": "chain" },
+      { "terrain": "forest", "count": 4, "size": [4, 7], "shape": "blob" }
+    ],
+    "objects": [
+      { "type": "colony", "count": 5, "minSpacing": 4, "minDistance": 4 },
+      { "type": "tower", "count": 3, "minSpacing": 4, "minDistance": 3, "atWall": 0.75 }
+    ],
+    "enemies": [
+      { "type": "raider", "count": 3, "minDistance": 5 },
+      { "type": "hunter", "count": 2, "minDistance": 5 }
+    ],
+    "storm": {
+      "name": "Ionensturm",
+      "delay": 1,
+      "wave": [0, 1, 2, 3, 2, 1],
+      "damage": 1,
+      "color": "#6e82af"
+    },
+    "alarm": {
+      "perTurn": 2,
+      "max": 40,
+      "kill": 12,
+      "levels": [15, 25, 31],
+      "spawnRate": [0, 2, 3, 4],
+      "spawnAt": 10,
+      "minRows": 5,
+      "spawns": ["raider", "hunter"]
+    }
+  },
+  "jungle": {
+    "name": "Dschungel",
+    "width": 13,
+    "rows": 12,
+    "base": "plain",
+    "hills": { "count": [2, 4], "radius": [2.5, 5], "max": 3, "flat": 2 },
+    "player": { "hp": 5, "moves": 2, "sight": 6 },
+    "features": [
+      { "terrain": "wall", "count": 2, "size": [3, 4], "shape": "chain" },
+      { "terrain": "forest", "count": 9, "size": [5, 9], "shape": "blob" }
+    ],
+    "objects": [
+      { "type": "colony", "count": 5, "minSpacing": 4, "minDistance": 4 },
+      { "type": "tower", "count": 3, "minSpacing": 4, "minDistance": 3, "atWall": 0.75 }
+    ],
+    "enemies": [
+      { "type": "raider", "count": 2, "minDistance": 5 },
+      { "type": "hunter", "count": 4, "minDistance": 5 }
+    ],
+    "storm": {
+      "name": "Ionensturm",
+      "delay": 1,
+      "wave": [0, 1, 2, 3, 2, 1],
+      "damage": 1,
+      "color": "#6e82af"
+    },
+    "alarm": {
+      "perTurn": 2,
+      "max": 40,
+      "kill": 12,
+      "levels": [15, 25, 31],
+      "spawnRate": [0, 2, 3, 4],
+      "spawnAt": 10,
+      "minRows": 5,
+      "spawns": ["raider", "hunter"]
+    }
+  },
+  "works": {
+    "name": "Werksgelände",
+    "width": 13,
+    "rows": 12,
+    "base": "plain",
+    "hills": { "count": [2, 4], "radius": [2.5, 5], "max": 3, "flat": 2 },
+    "player": { "hp": 5, "moves": 2, "sight": 6 },
+    "features": [
+      { "terrain": "wall", "count": 8, "size": [3, 5], "shape": "chain" },
+      { "terrain": "forest", "count": 1, "size": [4, 6], "shape": "blob" }
+    ],
+    "objects": [
+      { "type": "colony", "count": 5, "minSpacing": 4, "minDistance": 4 },
+      { "type": "tower", "count": 3, "minSpacing": 4, "minDistance": 3, "atWall": 0.75 }
+    ],
+    "enemies": [
+      { "type": "raider", "count": 4, "minDistance": 5 },
+      { "type": "hunter", "count": 2, "minDistance": 5 }
+    ],
+    "storm": {
+      "name": "Ionensturm",
+      "delay": 1,
+      "wave": [0, 1, 2, 3, 2, 1],
+      "damage": 1,
+      "color": "#6e82af"
+    },
+    "alarm": {
+      "perTurn": 2,
+      "max": 40,
+      "kill": 12,
+      "levels": [15, 25, 31],
+      "spawnRate": [0, 2, 3, 4],
+      "spawnAt": 10,
+      "minRows": 5,
+      "spawns": ["raider", "hunter"]
+    }
+  },
+  "long": {
+    "name": "Expedition",
+    "width": 13,
+    "rows": 12,
+    "areas": 4,
+    "separator": { "terrain": "wall", "gaps": [3, 2, 2], "width": 2 },
+    "viewRows": 10,
+    "base": "plain",
+    "hills": { "count": [3, 6], "radius": [2.5, 5], "max": 3, "flat": 2 },
+    "player": { "hp": 5, "moves": 2, "sight": 6 },
+    "features": [
+      { "terrain": "wall", "count": 5, "size": [3, 5], "shape": "chain" },
+      { "terrain": "forest", "count": 7, "size": [5, 9], "shape": "blob" }
+    ],
+    "objects": [
+      { "type": "colony", "count": 6, "minSpacing": 4, "minDistance": 4 },
+      { "type": "tower", "count": 3, "minSpacing": 4, "minDistance": 3, "atWall": 0.75 }
+    ],
+    "enemies": [
+      { "type": "raider", "count": 4, "minDistance": 4 },
+      { "type": "hunter", "count": 5, "minDistance": 4 },
+      { "type": "trooper", "count": 2, "minDistance": 5 }
+    ],
+    "storm": {
+      "name": "Ionensturm",
+      "delay": 1,
+      "wave": [0, 1, 2, 3, 2, 1],
+      "damage": 1,
+      "color": "#6e82af"
+    },
+    "alarm": {
+      "perTurn": 2,
+      "max": 40,
+      "kill": 12,
+      "levels": [15, 25, 31],
+      "spawnRate": [0, 2, 3, 4],
+      "spawnAt": 10,
+      "minRows": 5,
+      "maxRows": 12,
+      "spawns": ["raider", "hunter", "trooper"]
+    }
+  }
+}
